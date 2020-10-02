@@ -153,9 +153,7 @@ footer nav a {
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.head_logo{
 
-}
 .head_nav{
     display: flex;
     margin-top: 25px;
@@ -221,10 +219,11 @@ footer nav a {
     margin-bottom: 30px;
 }
 #body_container{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .body_float{
     width: 370px;
