@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -130,8 +129,13 @@ footer {
     width: 100%;
     background: black;
 }
-
-footer nav {
+header {
+    width: 100%;
+}
+header nav a {
+    text-decoration: none;
+}
+footer nav{
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -143,4 +147,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.head_contain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.head_logo{
+
+}
+.head_nav{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: flex-end;
+    padding: 0px 0%;
+    font-size: 14px;
+}
+.head_nav a{
+    margin: 0 43px;
+    color: black;
+    font-weight: bold;
+}
+.head_img{
+    margin: 20px 0;
+}
+
+
+
+
+.box:nth-child(1){
+    background-color:teal;
+}
+.box:nth-child(2){
+    background:gold ;
+}
+.box:nth-child(3){
+    background: cadetblue;
+}
+.box:nth-child(4){
+    background:coral ;
+}
+.box:nth-child(5){
+    background:crimson ;
+}
+.box:nth-child(6){
+    background:forestgreen ;
+}
+.box:nth-child(7){
+    background: darkorchid;
+}
+.box:nth-child(8){
+    background: hotpink;
+}
+.box:nth-child(9){
+    background-color: indigo;
+}
+.box:nth-child(10){
+    background:darkblue;
+}
+
+/* About section styles */
+.about_section{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 3%;
+}
+.signoff_section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#body_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.body_float{
+    width: 370px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+.float_text{
+    width: 100%;
+}
+.float_text h1{
+    margin: 10px 0;
+}
+.float_text p{
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+.learn_more{
+    margin: 25px 0 80px 0;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 25px;
 }
